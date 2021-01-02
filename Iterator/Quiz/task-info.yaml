@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Terminator
+- text: ArrayIterator
+- text: ListIterator
+- text: Iterator
+- text: CollectionIterator
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Correct solution
+  time: Sat, 02 Jan 2021 15:37:37 UTC
+record: -1
+selected_options:
+- 2
+- 3
